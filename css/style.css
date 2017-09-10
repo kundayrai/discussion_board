@@ -1,0 +1,58 @@
+.page {
+	width: 70%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.form {
+    margin: 0 auto;
+}
+
+label, input {
+    /* in order to define widths */
+    display: inline-block;
+}
+
+label {
+    width: 10%;
+    /* positions the label text beside the input */
+    text-align: left;
+    font-weight: bold;
+}
+
+textarea {
+	width: 30%;
+	height: 20%;
+}
+
+input {
+	width: 30%;
+}
+
+.button {
+	height: 7%;
+	color: blue;
+}
+
+.comment-area {
+	height: 60%;
+	overflow-y: scroll;
+	background-color: #E0E0E0;
+	border-color: #000;
+	border: 2px;
+	border-style: solid;
+}
+
+.comment-box {
+	padding: 0 0 3% 5%;
+	margin-bottom: 2%;
+	background-color: #4DD0E1;
+	border-color: 
+}
+
+.comment-box h3{
+	font-size: 1.5em;
+	background-color: #00897B;
+	width: 70%;
+	height: 10%;
+	padding: 2px 0 0 10px;
+}
