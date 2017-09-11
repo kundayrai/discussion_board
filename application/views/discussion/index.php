@@ -4,7 +4,7 @@
 <div class="comment-area">
 <?php foreach ($discussion as $discussion): ?>
 		<div class="comment-box">
-        	<h3><?php echo $discussion['username']; ?></h3>
+        	<div class="username"><?php echo $discussion['username']; ?></div>
         	<div class="main">
             	    <?php echo $discussion['content']; ?>
         	</div>

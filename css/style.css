@@ -42,17 +42,17 @@ input {
 	border-style: solid;
 }
 
-.comment-box {
-	padding: 0 0 3% 5%;
-	margin-bottom: 2%;
-	background-color: #4DD0E1;
-	border-color: 
-}
-
-.comment-box h3{
+.username {
+	color: white;
 	font-size: 1.5em;
 	background-color: #00897B;
 	width: 70%;
 	height: 10%;
 	padding: 2px 0 0 10px;
+}
+
+.comment-box {
+	padding: 0 0 3% 5%;
+	margin-bottom: 2%;
+	background-color: #4DD0E1;
 }
